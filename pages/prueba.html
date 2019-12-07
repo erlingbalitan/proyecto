@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <meta charset="utf-8">
+       <title>Document</title>
+       <link rel="stylesheet" type="text/css" href="../css/materialize.min.css">
+       <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div class="container center-align">
+       <h1>Prueba</h1>
+       <input id="Iniciar" type="Submit" value="Iniciar" class="btn">
+       <div class="row" hidden id="p1">
+              <div class="col s12 input-field">
+                     <select>
+                            <option value="" disabled selected></option>
+                            <option value="0">Femenino</option>
+                            <option value="1" >Masculinos</option>
+                            <option value="2">Chonco</option>
+                     </select>
+                     <label>Sexo</label>
+              </div>
+               <div class="col s12 input-field">
+                      <select>
+                             <option value=""></option>
+                             <option value="0">Soltero</option>
+                             <option value="1">Casado</option>
+                             <option value="2">Divorsiado</option>
+                      </select>
+                      <label>Estado</label>
+               </div>
+       </div>
+       <div class="row" hidden id="p2">
+            <div class="col s12 input-field">
+                <input type="number">
+                <label>Edad</label>
+            </div>
+            <div class="col s12 input-field">
+                <select>
+                    <option value=""></option>
+                    <option value="0">Nicaragua</option>
+                    <option value="1">Costarica</option>
+                    <option value="2">Salvador</option>
+                    <option value="3">Hondura</option>
+                </select>
+                <label>Pais</label>
+             </div>
+         </div> 
+       <input id="Siguiente" type="Submit" class="btn" value="Siguiente">      
+</div>
+       <script src="../js/jquery.js"></script>
+       <script src="../js/sweetalert2.min.js"></script>
+       <script src="../js/Prueba.js"></script>
+       <script src="../js/materialize.min.js"></script>
+</body>
+</html>
